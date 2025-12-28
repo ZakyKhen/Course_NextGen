@@ -1,0 +1,19 @@
+{
+    "id": "csharp-intro",
+    "title": "C# Fundamentals",
+    "language": "csharp",
+    "units": [
+        {
+            "id": "unit-csharp",
+            "title": "מבוא ל-#C (בונוס)",
+            "folder": "03-csharp-intro",
+            "lessons": [
+                {
+                    "id": "L5",
+                    "title": "התוכנות הראשונה ב-#C",
+                    "slug": "csharp-start"
+                }
+            ]
+        }
+    ]
+}

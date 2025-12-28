@@ -1,0 +1,19 @@
+{
+    "id": "web-dev",
+    "title": "Web Development Hub",
+    "language": "html",
+    "units": [
+        {
+            "id": "unit-web",
+            "title": "פיתוח אתרים (HTML & CSS)",
+            "folder": "04-web-dev",
+            "lessons": [
+                {
+                    "id": "W1",
+                    "title": "מבנה דף ה-HTML הראשון שלי",
+                    "slug": "html-intro"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+---
+title: "מבנה דף ה-HTML הראשון שלי"
+unit: "04-web-dev"
+lesson: "html-intro"
+---
+
+# ברוכים הבאים לעולם ה-WEB! 🌐
+
+בשיעור הזה נלמד איך דפדפנים קוראים דפי אינטרנט. כל מה שאתם רואים באינטרנט מתחיל ב-HTML – שפת הסימנים של הרשת.
+
+## היררכיית התגיות
+דף HTML בנוי כמו בניין:
+- `<html>` - המבנה כולו.
+- `<body>` - התוכן שרואים בעיניים.
+- `<h1>` - כותרת גדולה וחשובה.
+
+### בואו נבנה את האתר הראשון שלכם:
+נסו לשנות את הטקסט בתוך ה-H1 ולראות איך זה משתנה בתצוגה המקדימה מצד שמאל!
+
+<CodeRunner 
+  language="html"
+  initialCode={`<!DOCTYPE html>
+<html>
+<body style="font-family: sans-serif; text-align: center; padding: 20px;">
+  <h1 style="color: coral;">האתר הראשון שלי!</h1>
+  <p>אני לומד לבנות אתרים במערכת ה-NextGen החדשה.</p>
+  <button style="background: coral; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+    לחצו עלי!
+  </button>
+</body>
+</html>`}
+/>
+
+שימו לב שבניגוד לפייתון או #C, כאן אנחנו רואים **תוצאה ויזואלית** מיד.

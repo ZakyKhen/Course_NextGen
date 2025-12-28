@@ -1,0 +1,41 @@
+{
+    "id": "python-master",
+    "title": "Python Masterclass - NextGen",
+    "language": "python",
+    "units": [
+        {
+            "id": "unit-1",
+            "title": "יסודות התכנות",
+            "folder": "01-fundamentals",
+            "lessons": [
+                {
+                    "id": "L1",
+                    "title": "מבוא וסביבת עבודה",
+                    "slug": "introduction"
+                },
+                {
+                    "id": "L2",
+                    "title": "משתנים וסוגי נתונים",
+                    "slug": "variables"
+                }
+            ]
+        },
+        {
+            "id": "unit-2",
+            "title": "לולאות ובקרת זרימה",
+            "folder": "02-loops",
+            "lessons": [
+                {
+                    "id": "L3",
+                    "title": "תנאי If-Else",
+                    "slug": "conditions"
+                },
+                {
+                    "id": "L4",
+                    "title": "לולאות For",
+                    "slug": "for-loops"
+                }
+            ]
+        }
+    ]
+}
